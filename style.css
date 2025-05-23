@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1f1f1f);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Khung căn giữa và to gần bằng màn hình */
+.form-container,
+.home-container {
+  width: 90%;
+  max-width: 480px;
+  background-color: #1e1e1e;
+  padding: 40px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: #ff4757;
+  font-size: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background: #2f2f2f;
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #ff4757;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e84118;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  padding: 14px;
+  background-color: #ff6b81;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.logout-btn:hover {
+  background-color: #e84118;
+}
+
+p {
+  margin-top: 15px;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
